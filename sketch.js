@@ -92,7 +92,7 @@ content1 = selectAll('.page1')
 for(let i = 0;i< content1.length;i++){
 	 content1[i].remove();}
 }
-if(page != 3){
+if(page != 3 && on[3]==true){
 	on[3]=false;
 		 title.remove();
 for(let i = 0;i< links.length;i++){

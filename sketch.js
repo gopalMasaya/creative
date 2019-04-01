@@ -72,17 +72,20 @@ for(let i = 0;i< visiontxt.length;i++){
 // }on[0]=true
  }
 if(page == 1 && on[0] == false){myProjects();}
-if(page == 3 && on[3] == false){ml();}
+if(page == 3 && on[3] == false){ml();
+fill(0);
+text("on",width/2,400)
+}
 
 
 
 }
 function mousePressed(){
-
+console.log(linksAi)
 if(menue[0].MouseIsOver()){page=0;console.log(0)}
 if(menue[1].MouseIsOver()){page=1;console.log(1)}
 if(menue[2].MouseIsOver()){page=2;}
-if(menue[3].MouseIsOver()){page=3;}
+if(menue[3].MouseIsOver()){page=3;console.log(3)}
 
 
 
@@ -93,13 +96,14 @@ for(let i = 0;i< content1.length;i++){
 	 content1[i].remove();}
 }
 if(page != 3 && on[3]==true){
-	on[3]=false;
+		on[3]=false;
+console.log(	on[3])
 		 title.remove();
 for(let i = 0;i< links.length;i++){
 	 linksAi[i].remove();}
 
 }
-
+console.log(on[3])
 
 
 }

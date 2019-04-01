@@ -72,7 +72,7 @@ for(let i = 0;i< visiontxt.length;i++){
 // }on[0]=true
  }
 if(page == 1 && on[0] == false){myProjects();}
-if(page == 3 && on[3] == false){ml();
+if(page == 3 && on[3] == false){mli();
 fill(0);
 text("on",width/2,400)
 }

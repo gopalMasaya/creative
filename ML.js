@@ -1,5 +1,5 @@
 
-function ml(){
+function mli(){
 title = createP('list of links to projects that incluse AI/Math or data sets they demonstrate concept and idias')
 title.position(30,160);
 title.style('font-size','20px')

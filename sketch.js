@@ -1,7 +1,7 @@
 var linksAi = new Array(50);
 
 var links = new Array(20);
-var page = 0;
+var page = 3;
 var menue= new Array(10);
 var names = ["vision ","embded"," אב טפוס","AI & webApp","צור קשר "]
 var on = new Array(10);
@@ -82,7 +82,7 @@ text("on",width/2,400)
 }
 function mousePressed(){
 console.log(linksAi)
-if(menue[0].MouseIsOver()){page=0;console.log(0)}
+//if(menue[0].MouseIsOver()){page=0;console.log(0)}
 if(menue[1].MouseIsOver()){page=1;console.log(1)}
 if(menue[2].MouseIsOver()){page=2;}
 if(menue[3].MouseIsOver()){page=3;console.log(3)}

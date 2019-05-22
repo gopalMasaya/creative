@@ -9,11 +9,12 @@ linksAi[0]= createA('https://gopalmasaya.github.io/style-your-image/',target="st
 linksAi[1]= createA('https://gopalmasaya.github.io/waves/',target ="analyzing Pos with Ml","detect")
 linksAi[2]= createA('https://gopalmasaya.github.io/heartOfmath_simulation/',target="the heart of math","heart of math")
 linksAi[3]= createA('https://gopalmasaya.github.io/TopDb/',target="simple crm/acces only with code","_blank")
-linksAi[0].position(30,220);
-linksAi[1].position(30,250);
-linksAi[2].position(30,280);
-linksAi[3].position(30,310);
+linksAi[4]= createA('https://gopalmasaya.github.io/waterRiple/',target="water Ripple simulation","_blank") 
+  
+for(let i =0; i< linksAi.length;i++){  
+linksAi[i].position(30,220+(i*30));
 
+}
 for(let i = 0; i< 3; i++){
   linksAi[i].style('font-size','18px')
 }

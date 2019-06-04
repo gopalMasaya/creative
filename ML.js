@@ -11,7 +11,7 @@ linksAi[2]= createA('https://gopalmasaya.github.io/heartOfmath_simulation/',targ
 linksAi[3]= createA('https://gopalmasaya.github.io/TopDb/',target="simple crm/acces only with code","_blank")
 linksAi[4]= createA('https://gopalmasaya.github.io/waterRiple/',target="water Ripple simulation","_blank") 
   
-for(let i =0; i< linksAi.length;i++){  
+for(let i =0; i< linksAi.length-1;i++){  
 linksAi[i].position(30,220+(i*30));
 
 }

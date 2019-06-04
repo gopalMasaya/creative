@@ -10,12 +10,12 @@ linksAi[1]= createA('https://gopalmasaya.github.io/waves/',target ="analyzing Po
 linksAi[2]= createA('https://gopalmasaya.github.io/heartOfmath_simulation/',target="the heart of math","heart of math")
 linksAi[3]= createA('https://gopalmasaya.github.io/TopDb/',target="simple crm/acces only with code","_blank")
 linksAi[4]= createA('https://gopalmasaya.github.io/waterRiple/',target="water Ripple simulation","_blank") 
-  console.log(3);
-for(let i =0; i< 3;i++){  
+  console.log(5);
+for(let i =0; i< 5;i++){  
 linksAi[i].position(30,220+(i*30));
 
 }
-for(let i = 0; i< 3; i++){
+for(let i = 0; i< 5; i++){
   linksAi[i].style('font-size','18px')
 }
 
